@@ -1,0 +1,120 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #F2F2F2;
+}
+
+#navbar {
+    background-color: #8F3629;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-navbar {
+    height: 50px;
+    margin-left: 2px;
+}
+
+.menu-desk {
+    list-style: none;
+    margin-right: 3%;
+}
+
+.li-menu-desk {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.li-menu-desk > a {
+    text-decoration: none;
+    color: #0D0D0D;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.li-menu-desk > a:hover {
+    text-decoration: none;
+    color: #C2F2D7;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.container-section {
+    position: relative;
+    display: flex;
+}
+
+.img-section {
+    width: 100%;
+}
+
+.title-section {
+    position: absolute;
+    color: #f2f2f2;
+    text-shadow: 0px 0px 5px #8F3629;
+    font-size: 13px;
+    width: 40%;
+    margin: 10% 0% 0% 3%;
+}
+
+.container-slideshow {
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+.container-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    grid-gap: 5px;
+}
+
+.product {
+    background-color: #118c462f;
+    position: relative;
+    height: 240px;
+}
+
+.img-product {
+    width: 100%;
+    height: 130px;
+}
+
+.title-product {
+    font-size: 13px;
+    font-weight: bold;
+    color: #8F3629;
+    text-shadow: 0px 0px 5px #f2f2f2;
+}
+
+.description-product {
+    font-size: 10px;
+    color: #0D0D0D;
+    text-shadow: 0px 0px 5px #f2f2f2;
+}
+
+.btn-product {
+    background-color: #8F3629;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-bottom: 4%;
+}
+
+.my-float {
+    color: #0d0d0d;
+    border-radius: 50px;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+}
