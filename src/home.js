@@ -8,7 +8,7 @@ window.addEventListener("load", function(){
     images[5] = "/src/assets/product06.PNG";
     images[6] = "/src/assets/product07.PNG";
     function changeImage(){
-        let time = 5000;
+        let time = 4000;
         let i = 1;
         setInterval(function(){
             document.slider.src = images[i];
@@ -21,7 +21,7 @@ window.addEventListener("load", function(){
     }
     changeImage();
     function changeImage2(){
-        let time = 5000;
+        let time = 4000;
         let i = 0;
         setInterval(function(){
             document.slider2.src = images[i];
@@ -34,7 +34,7 @@ window.addEventListener("load", function(){
     }
     changeImage2();
     function changeImage3(){
-        let time = 5000;
+        let time = 4000;
         let i = 2;
         setInterval(function(){
             document.slider3.src = images[i];
