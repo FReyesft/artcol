@@ -7,6 +7,24 @@ window.addEventListener("load", function(){
     images[4] = "/src/assets/product05.PNG";
     images[5] = "/src/assets/product06.PNG";
     images[6] = "/src/assets/product07.PNG";
+
+    let imagesWallpapers = [];
+    imagesWallpapers[0] = "/src/assets/wallpaper01.jpg";
+    imagesWallpapers[1] = "/src/assets/wallpaper02.png";
+    imagesWallpapers[2] = "/src/assets/wallpaper03.png";
+
+    function changeWallpaper(){
+        let time = 4000;
+        let i = 0;
+        setInterval(function(){
+            document.slider01.src = imagesWallpapers[i];
+            i++;
+            if(i === imagesWallpapers.length){
+                i = 0;
+            }
+        }, time)
+    }
+    changeWallpaper();
     function changeImage(){
         let time = 4000;
         let i = 1;
