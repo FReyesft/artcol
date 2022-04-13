@@ -1,12 +1,13 @@
+const time = 5000
 window.addEventListener("load", function () {
   let images = [];
-  images[0] = "/src/assets/product01.PNG";
+  images[0] = "/src/assets/product12.PNG";
   images[1] = "/src/assets/product02.PNG";
   images[2] = "/src/assets/product03.PNG";
-  images[3] = "/src/assets/product04.PNG";
-  images[4] = "/src/assets/product05.PNG";
-  images[5] = "/src/assets/product06.PNG";
-  images[6] = "/src/assets/product07.PNG";
+  images[3] = "/src/assets/product30.PNG";
+  images[4] = "/src/assets/product01.PNG";
+  images[5] = "/src/assets/product21.PNG";
+  images[6] = "/src/assets/product14.PNG";  
 
   let imagesWallpapers = [];
   imagesWallpapers[0] = "/src/assets/wallpaper01.jpg";
@@ -14,7 +15,6 @@ window.addEventListener("load", function () {
   imagesWallpapers[2] = "/src/assets/wallpaper03.png";
 
   function changeWallpaper() {
-    let time = 4000;
     let i = 0;
     setInterval(function () {
       document.slider01.src = imagesWallpapers[i];
@@ -25,62 +25,52 @@ window.addEventListener("load", function () {
     }, time);
   }
   changeWallpaper();
-});
 
-const grid = new Muuri(".grid", {
-  layout: {
-    rounding: false,
-  },
-});
+  function changeProduct1() {
+    let i = 1;
+    setInterval(function () {
+      document.item.src = images[i];
+      i++;
+      if (i === images.length) {
+        i = 0;
+      }
+    }, time);
+  }
+  changeProduct1();
 
-window.addEventListener("load", () => {
-  grid.refreshItems().layout();
-  document.getElementById("grid").classList.add("imagenes-cargadas");
-  //Se agregan listeners para filtrar por categoria
-  const enlaces = document.querySelectorAll("#categorias a");
-  enlaces.forEach((elemento) => {
-    elemento.addEventListener("click", (evento) => {
-      evento.preventDefault();
-      enlaces.forEach((enlace) => enlace.classList.remove("activo"));
-      evento.target.classList.add("activo");
+  function changeProduct2() {
+    let i = 2;
+    setInterval(function () {
+      document.item2.src = images[i];
+      i++;
+      if (i === images.length) {
+        i = 0;
+      }
+    }, time);
+  }
+  changeProduct2();
 
-      const categoria = evento.target.innerHTML.toLowerCase();
-      categoria === "todos"
-        ? grid.filter("[data-categoria]")
-        : grid.filter(`[data-categoria="${categoria}"]`);
-    });
-  });
-  //Se agregan los listeners para la barra de busqueda
-  document
-    .querySelector("#barra-busqueda")
-    .addEventListener("input", (evento) => {
-      const busqueda = evento.target.value;
-      grid.filter((item) =>
-        item.getElement().dataset.etiquetas.includes(busqueda)
-      );
-    });
-  //listener para imagenes
-  const overlay = document.getElementById("overlay");
-  document.querySelectorAll(".grid .item img").forEach((elemento) => {
-    elemento.addEventListener("click", () => {
-      const ruta = elemento.getAttribute("src");
-      const descripcion = elemento.parentNode.parentNode.dataset.descripcion;
-      const price = elemento.parentNode.parentNode.dataset.price;
+  function changeProduct3() {
+    let i = 3;
+    setInterval(function () {
+      document.item3.src = images[i];
+      i++;
+      if (i === images.length) {
+        i = 0;
+      }
+    }, time);
+  }
+  changeProduct3();
 
-      overlay.classList.add("activo");
-      document.querySelector("#overlay img").src = ruta;
-      document.querySelector("#overlay .descripcion").innerHTML = descripcion;
-      document.querySelector("#overlay .price").innerHTML = price;
-      //cambiar el href de whatsapp
-      document.querySelector(".float").href = `https://api.whatsapp.com/send?phone=+57 3142325833&text=Hola. Me gustaria preguntar por el producto ${descripcion}`;
-    });
-  });
-  //Listener de boton para cerrar
-  document.querySelector("#btn-cerrar-popup").addEventListener("click", () => {
-    overlay.classList.remove("activo");
-  });
-  //Listener de overlay
-  overlay.addEventListener("click", (evento) => {
-    evento.target.id === "overlay" ? overlay.classList.remove("activo") : "";
-  });
+  function changeProduct4() {
+    let i = 4;
+    setInterval(function () {
+      document.item4.src = images[i];
+      i++;
+      if (i === images.length) {
+        i = 0;
+      }
+    }, time);
+  }
+  changeProduct4();
 });

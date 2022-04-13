@@ -27,20 +27,59 @@
     <nav id="navbar">
       <img alt="logo" class="logo-navbar" src="../assets/logoArcol01.png" />
       <ul class="menu-desk">
-        <li class="li-menu-desk"><a href="#body">Home</a></li>
-        <li class="li-menu-desk"><a href="../public/productos.html">Productos</a></li>
-        <li class="li-menu-desk"><a href="#">Sobre Nosotros</a></li>
-        <li class="li-menu-desk"><a href="#footer">Redes</a></li>
-      </ul>
+        <li class="li-menu-desk"><a href="../public/index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li class="li-menu-desk"><a href="../public/productos.html"><i class="fa-solid fa-shop"></i>Tienda</a></li>
+        <li class="li-menu-desk"><a href="#footer"><i class="fa-solid fa-circle-info"></i>info</a></li>
+      </ul>  
     </nav>
     <section class="container-section">
-      <img class="img-section" name="slider01" width="130" height="130" />
+      <img class="img-section" name="slider01" width="130" height="130" src="../assets/wallpaper03.png"/>
       <h1 class="title-section">
         PRODUCTOS INSPIRADOS EN NUESTRA CULTURA ANCESTRAL
       </h1>
     </section>
-    <h3 class="title-section2">Nuestros productos</h3>
-    <footer id="footer">
+    <section class="show-products">
+      <h3 class="title-section2">Nuestros productos</h3>
+      <div class="container-products">
+        <div class="product-item">
+          <a href="./productos.html"><img width="70%" height="70%" name="item" class="img-product" src="../assets/product01.png"/></a>
+        </div>
+        <div class="product-item">
+          <a href="./productos.html"><img width="70%" height="70%" name="item2" class="img-product" src="../assets/product30.png"/></a>
+        </div>
+        <div class="product-item">
+          <a href="./productos.html"><img width="70%" height="70%" name="item3" class="img-product" src="../assets/product21.png"/></a>
+        </div>
+        <div class="product-item">
+          <a href="./productos.html"><img width="70%" height="70%" name="item4" class="img-product" src="../assets/product14.png"/></a>
+        </div>
+      </div>
+      <button class="button-products"><a href="../public/productos.html">Ver mas</a></button>
+    </section>
+    <section class="section-about-us">
+      <h3 class="title-about-us">Sobre nosotros</h3>
+      <div class="container-about-us">
+        <div class="about-us-item">
+          <img class="img-about-us" src="../assets/fondo_opcion4.webp"/>
+        </div>
+        <div class="about-us-item">
+          <p class="text-about-us">
+            ArtCol es una empresa que va de la mano con los artesanos del país ayudandoles a llevar sus productos a cada rincon. 
+            <br>
+            <br>
+            Reconocemos el trabajo de cada una de las personas con las que trabajamos vendiendo sus productos a un precio justo que se acomode tanto al cliente como al productor.
+            <br>
+            <br>
+            ¿Comunidades con las que colaboramos?
+            <br>
+            <br>
+            Actualmente estamos distribuyendo productos creados por culturas como la: Wayúu, la Indigena e incluso la minera.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  <footer id="footer">
         <div class="container-redes">
             <ul class="redes">
                 <li class="text-redes"><a target="_blank" href="https://www.instagram.com/artcol.nativo/"><i class="fa-brands fa-instagram"></i>Instagram : @artcol.nativo</a></li>
@@ -48,6 +87,10 @@
         </div>
         <img alt="logo" class="logo-footer" src="../assets/logoArcol01.png"/>              
     </footer>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+57 3142325833&text=Envia%20Un%20Mensaje%20Para%20Contactarnos" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <div class="credits-developer">Pagina desarrollada por FReyeSFT (fernandoreyezpinto@gmail.com)       
     </div>
     <script src="../home.js"></script>
