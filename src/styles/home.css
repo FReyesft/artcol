@@ -114,19 +114,20 @@ body {
     padding: 5px;
     width: 120px;
     margin-bottom: 10px;
-    background-color: #118C46;
+    background-color: #C2F2D7;
     border: 1px solid #06351b;
     border-radius: 10px;
 
 }
 
 .button-products:hover {
-    background-color: #C2F2D7;
+    background-color: #118C46;
     color: #000000;
 }
 
 .button-products > a {
     text-decoration: none;
+    color: #0d0d0d;
 }
 
 
@@ -209,12 +210,12 @@ body {
 
 /*Float*/
 
-.float{
+.float01{
 	position:fixed;
 	width: 60px;
 	height: 60px;
 	bottom: 40px;
-	left: 30px;
+	right: 40px;
 	background-color:#44b96f;
 	color:#FFF;
 	border-radius:50px;
@@ -224,11 +225,11 @@ body {
     z-index:100;
     filter: drop-shadow(0px 0px 10px rgb(18, 54, 56));
 }
-.float:hover {
+.float01:hover {
 	text-decoration: none;
     filter: drop-shadow(0px 0px 5px #000);
 }
 
-.my-float{
+.my-float01{
 	margin-top:16px;
 }
