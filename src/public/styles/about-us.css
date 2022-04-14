@@ -1,0 +1,168 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #F2F2F2;
+}
+
+* {
+    box-sizing: border-box;
+}
+/*Nav*/
+#navbar {
+    background-color: #8F3629;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    justify-content: center;
+}
+
+.logo-navbar {
+    height: 50px;
+    margin-left: 2px;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+
+.menu-desk {
+    list-style: none;
+}
+
+.li-menu-desk {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.li-menu-desk > a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.li-menu-desk > a > i {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.li-menu-desk > a:hover {
+    text-decoration: none;
+    color: #C2F2D7;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*About Us*/
+
+.section-about-us {
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+}
+
+.title-artcol {
+
+    color: #ad736a;
+    text-shadow: rgb(13, 13, 13) 2px 0px 0px, rgb(13, 13, 13) 1.75517px 0.958851px 0px, rgb(13, 13, 13) 1.0806px 1.68294px 0px, rgb(13, 13, 13) 0.141474px 1.99499px 0px, rgb(13, 13, 13) -0.832294px 1.81859px 0px, rgb(13, 13, 13) -1.60229px 1.19694px 0px, rgb(13, 13, 13) -1.97998px 0.28224px 0px, rgb(13, 13, 13) -1.87291px -0.701566px 0px, rgb(13, 13, 13) -1.30729px -1.5136px 0px, rgb(13, 13, 13) -0.421592px -1.95506px 0px, rgb(13, 13, 13) 0.567324px -1.91785px 0px, rgb(13, 13, 13) 1.41734px -1.41108px 0px, rgb(13, 13, 13) 1.92034px -0.558831px 0px;
+    font-size: 80px;
+    font-family: 'Square Peg', cursive;
+    border-bottom: 1px solid #ad736a;
+}
+
+.title-about-us {
+    font-size: 30px;
+    text-align: center;
+}
+
+.img-about-us {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 400px;
+    width: 60%;
+}
+
+.text-about-us {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*Footer*/
+
+.text-redes > a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.text-redes > a:hover{
+    text-decoration: none;
+    color: #C2F2D7;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.redes {
+    list-style: none;
+}
+
+.fa-brands {
+    margin-right: 5px;
+}
+
+.container-redes {
+    margin-left: 30px;
+}
+
+#footer {
+    position: relative;
+    background-color: #8F3629;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.credits-developer {
+    background-color: #f2f2f2;
+}
+
+.logo-footer {
+    height: 70px;
+    margin-right: 60px;
+}
+
+/*Float*/
+
+.float01{
+	position:fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color:#44b96f;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    filter: drop-shadow(0px 0px 10px rgb(18, 54, 56));
+}
+.float01:hover {
+	text-decoration: none;
+    filter: drop-shadow(0px 0px 5px #000);
+}
+
+.my-float01{
+	margin-top:16px;
+}

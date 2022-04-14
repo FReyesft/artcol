@@ -27,6 +27,16 @@ body {
     margin-left: 10px;
 }
 
+.title-artcol {
+    position: absolute;
+    color: #f2f2f2;
+    text-shadow: rgb(13, 13, 13) 2px 0px 0px, rgb(13, 13, 13) 1.75517px 0.958851px 0px, rgb(13, 13, 13) 1.0806px 1.68294px 0px, rgb(13, 13, 13) 0.141474px 1.99499px 0px, rgb(13, 13, 13) -0.832294px 1.81859px 0px, rgb(13, 13, 13) -1.60229px 1.19694px 0px, rgb(13, 13, 13) -1.97998px 0.28224px 0px, rgb(13, 13, 13) -1.87291px -0.701566px 0px, rgb(13, 13, 13) -1.30729px -1.5136px 0px, rgb(13, 13, 13) -0.421592px -1.95506px 0px, rgb(13, 13, 13) 0.567324px -1.91785px 0px, rgb(13, 13, 13) 1.41734px -1.41108px 0px, rgb(13, 13, 13) 1.92034px -0.558831px 0px;
+   font-size: 80px;
+    margin: 3% 0% 0% 5%;
+    width: 500px;
+    font-family: 'Square Peg', cursive;
+}
+
 .menu-desk {
     list-style: none;
 }
@@ -62,15 +72,14 @@ body {
 /*Section 1*/
 
 .title-section2 {
-    margin-top: 20px;
     justify-content: center;
     display: flex;
     font-size: 30px;
-    margin-top: 210px;;
+    margin-top: 50px;;
 }
 
 .container-section {
-    height: 35vh;
+    height: 60vh;
     display: flex;
     margin-top: 80px;
     display: flex;
@@ -79,7 +88,7 @@ body {
 .img-section {
     object-fit: cover;
     width: 100%;
-    height: 55vh;
+    height: 100%;
 }
 
 .title-section {
@@ -87,8 +96,8 @@ body {
     color: #f2f2f2;
     text-shadow: rgb(13, 13, 13) 2px 0px 0px, rgb(13, 13, 13) 1.75517px 0.958851px 0px, rgb(13, 13, 13) 1.0806px 1.68294px 0px, rgb(13, 13, 13) 0.141474px 1.99499px 0px, rgb(13, 13, 13) -0.832294px 1.81859px 0px, rgb(13, 13, 13) -1.60229px 1.19694px 0px, rgb(13, 13, 13) -1.97998px 0.28224px 0px, rgb(13, 13, 13) -1.87291px -0.701566px 0px, rgb(13, 13, 13) -1.30729px -1.5136px 0px, rgb(13, 13, 13) -0.421592px -1.95506px 0px, rgb(13, 13, 13) 0.567324px -1.91785px 0px, rgb(13, 13, 13) 1.41734px -1.41108px 0px, rgb(13, 13, 13) 1.92034px -0.558831px 0px;
     font-size: 40px;
-    margin: 5% 0% 0% 5%;
-    width: 40%;
+    margin: 10% 0% 0% 5%;
+    width: 500px;
 }
 /*/Section 2*/
 .show-products{
@@ -232,4 +241,24 @@ body {
 
 .my-float01{
 	margin-top:16px;
+}
+
+@media (max-width: 1000px) {
+    .title-section {
+        position: absolute;
+        color: #f2f2f2;
+        text-shadow: rgb(13, 13, 13) 2px 0px 0px, rgb(13, 13, 13) 1.75517px 0.958851px 0px, rgb(13, 13, 13) 1.0806px 1.68294px 0px, rgb(13, 13, 13) 0.141474px 1.99499px 0px, rgb(13, 13, 13) -0.832294px 1.81859px 0px, rgb(13, 13, 13) -1.60229px 1.19694px 0px, rgb(13, 13, 13) -1.97998px 0.28224px 0px, rgb(13, 13, 13) -1.87291px -0.701566px 0px, rgb(13, 13, 13) -1.30729px -1.5136px 0px, rgb(13, 13, 13) -0.421592px -1.95506px 0px, rgb(13, 13, 13) 0.567324px -1.91785px 0px, rgb(13, 13, 13) 1.41734px -1.41108px 0px, rgb(13, 13, 13) 1.92034px -0.558831px 0px;
+        font-size: 30px;
+        margin: 30% 0% 0% 5%;
+        width: 350px;
+    }
+    .title-artcol {
+        position: absolute;
+        color: #f2f2f2;
+        text-shadow: rgb(13, 13, 13) 2px 0px 0px, rgb(13, 13, 13) 1.75517px 0.958851px 0px, rgb(13, 13, 13) 1.0806px 1.68294px 0px, rgb(13, 13, 13) 0.141474px 1.99499px 0px, rgb(13, 13, 13) -0.832294px 1.81859px 0px, rgb(13, 13, 13) -1.60229px 1.19694px 0px, rgb(13, 13, 13) -1.97998px 0.28224px 0px, rgb(13, 13, 13) -1.87291px -0.701566px 0px, rgb(13, 13, 13) -1.30729px -1.5136px 0px, rgb(13, 13, 13) -0.421592px -1.95506px 0px, rgb(13, 13, 13) 0.567324px -1.91785px 0px, rgb(13, 13, 13) 1.41734px -1.41108px 0px, rgb(13, 13, 13) 1.92034px -0.558831px 0px;
+        font-size: 80px;
+        margin: 10% 0% 0% 5%;
+        width: 300px;
+        font-family: 'Square Peg', cursive;
+    }
 }

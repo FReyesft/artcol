@@ -10,9 +10,9 @@ window.addEventListener("load", function () {
   images[6] = "./assets/product14.PNG";  
 
   let imagesWallpapers = [];
-  imagesWallpapers[0] = "./assets/wallpaper01.jpg";
+  imagesWallpapers[0] = "./assets/fondo_opcion4.webp";
   imagesWallpapers[1] = "./assets/wallpaper02.png";
-  imagesWallpapers[2] = "./assets/wallpaper03.png";
+  imagesWallpapers[2] = "./assets/wallpaper01.jpg";
 
   function changeWallpaper() {
     let i = 0;
