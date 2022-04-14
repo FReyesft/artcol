@@ -1,18 +1,18 @@
 const time = 5000
 window.addEventListener("load", function () {
   let images = [];
-  images[0] = "/src/assets/product12.PNG";
-  images[1] = "/src/assets/product02.PNG";
-  images[2] = "/src/assets/product03.PNG";
-  images[3] = "/src/assets/product30.PNG";
-  images[4] = "/src/assets/product01.PNG";
-  images[5] = "/src/assets/product21.PNG";
-  images[6] = "/src/assets/product14.PNG";  
+  images[0] = "./assets/product12.PNG";
+  images[1] = "./assets/product02.PNG";
+  images[2] = "./assets/product03.PNG";
+  images[3] = "./assets/product30.PNG";
+  images[4] = "./assets/product01.PNG";
+  images[5] = "./assets/product21.PNG";
+  images[6] = "./assets/product14.PNG";  
 
   let imagesWallpapers = [];
-  imagesWallpapers[0] = "/src/assets/wallpaper01.jpg";
-  imagesWallpapers[1] = "/src/assets/wallpaper02.png";
-  imagesWallpapers[2] = "/src/assets/wallpaper03.png";
+  imagesWallpapers[0] = "./assets/wallpaper01.jpg";
+  imagesWallpapers[1] = "./assets/wallpaper02.png";
+  imagesWallpapers[2] = "./assets/wallpaper03.png";
 
   function changeWallpaper() {
     let i = 0;
