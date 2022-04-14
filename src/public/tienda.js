@@ -43,7 +43,7 @@ const grid = new Muuri(".grid", {
         document.querySelector("#overlay .descripcion").innerHTML = descripcion;
         document.querySelector("#overlay .price").innerHTML = price;
         //cambiar el href de whatsapp
-        document.querySelector(".float").href = `https://api.whatsapp.com/send?phone=+57 3142325833&text=Hola. Me gustaria preguntar por el producto ${descripcion}`;
+        document.querySelector(".float").href = `https://api.whatsapp.com/send?phone=+57 3204351465&text=Hola. Me gustaria preguntar por el producto ${descripcion}`;
       });
     });
     //Listener de boton para cerrar
