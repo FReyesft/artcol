@@ -16,7 +16,7 @@ const grid = new Muuri(".grid", {
         evento.target.classList.add("activo");
   
         const categoria = evento.target.innerHTML.toLowerCase();
-        categoria === "todos"
+        categoria === "colash"
           ? grid.filter("[data-categoria]")
           : grid.filter(`[data-categoria="${categoria}"]`);
       });
@@ -36,12 +36,12 @@ const grid = new Muuri(".grid", {
       elemento.addEventListener("click", () => {
         const ruta = elemento.getAttribute("src");
         const descripcion = elemento.parentNode.parentNode.dataset.descripcion;
-        const price = elemento.parentNode.parentNode.dataset.price;
+        // const price = elemento.parentNode.parentNode.dataset.price;
   
         overlay.classList.add("activo");
         document.querySelector("#overlay img").src = ruta;
         document.querySelector("#overlay .descripcion").innerHTML = descripcion;
-        document.querySelector("#overlay .price").innerHTML = price;
+        //document.querySelector("#overlay .price").innerHTML = price;
         //cambiar el href de whatsapp
         document.querySelector(".float").href = `https://api.whatsapp.com/send?phone=+57 3204351465&text=Hola. Me gustaria preguntar por el producto ${descripcion}`;
       });
