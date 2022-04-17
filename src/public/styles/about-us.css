@@ -8,9 +8,9 @@ body {
 }
 /*Nav*/
 #navbar {
-    background-color: #8F3629;
+    background-color: #118C46;
     width: 100%;
-    height: 80px;
+    height: 90px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -20,12 +20,12 @@ body {
 }
 
 .logo-navbar {
-    height: 50px;
-    margin-left: 2px;
+    height: 70px;
     position: absolute;
     left: 0;
     margin-left: 10px;
 }
+
 
 .menu-desk {
     list-style: none;
@@ -41,22 +41,22 @@ body {
     text-decoration: none;
     color: #f2f2f2;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .li-menu-desk > a > i {
     text-decoration: none;
     color: #f2f2f2;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 3px;
 }
 
 .li-menu-desk > a:hover {
     text-decoration: none;
-    color: #C2F2D7;
+    color: #81f8b4;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 /*About Us*/
 
@@ -66,7 +66,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 70%;
+    width: 50%;
 }
 
 .title-artcol {
@@ -85,14 +85,15 @@ body {
 
 .img-about-us {
     border-radius: 50%;
-    object-fit: cover;
-    height: 400px;
-    width: 60%;
+    object-fit: contain;
+    height: 600px;
+    width: 100%;
+    background-image: url(../assets/stacked-waves-haikei.svg);
 }
 
 .text-about-us {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 /*Footer*/
@@ -123,9 +124,35 @@ body {
     margin-left: 30px;
 }
 
+.text-redes > a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-redes > a:hover{
+    text-decoration: none;
+    color: #81f8b4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.redes {
+    list-style: none;
+}
+
+.fa-brands {
+    margin-right: 5px;
+}
+
+.container-redes {
+    margin-left: 30px;
+}
+
 #footer {
     position: relative;
-    background-color: #8F3629;
+    background-color: #118C46;
     height: 150px;
     display: flex;
     align-items: center;
@@ -140,6 +167,7 @@ body {
     height: 70px;
     margin-right: 60px;
 }
+
 
 /*Float*/
 
