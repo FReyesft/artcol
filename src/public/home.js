@@ -1,7 +1,7 @@
 const time = 5000
 window.addEventListener("load", function () {
   let images = [];
-  images[0] = "./assets/product12.PNG";
+  images[0] = "./assets/product19.PNG";
   images[1] = "./assets/product02.PNG";
   images[2] = "./assets/product03.PNG";
   images[3] = "./assets/product30.PNG";

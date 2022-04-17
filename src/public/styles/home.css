@@ -126,15 +126,14 @@ body {
     padding: 5px;
     width: 120px;
     margin-bottom: 10px;
-    background-color: #C2F2D7;
+    background-color: #118C46;
     border: 1px solid #06351b;
     border-radius: 10px;
 
 }
 
 .button-products:hover {
-    background-color: #118C46;
-    color: #000000;
+    background-color: #4d644f;
 }
 
 .button-products > a {
@@ -146,33 +145,31 @@ body {
 /*About Us*/
 
 .section-about-us {
-    width: 100%;
-    padding: 50px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .title-about-us {
     font-size: 30px;
-    text-align: center;
 }
 
 .container-about-us {
-    display: flex;
-    text-align: center;
-    align-items: center;
     margin-top: 50px;
+    width: 50%;
 }
 
 .img-about-us {
     object-fit: cover;
-    width: 500px;
-    height: 500px;
+    width: 50%;
+    height: 50%;
     border-radius: 10%;
 }
 
 .text-about-us {
-    font-weight: bold;
     font-size: 20px;
+    text-align-last: justify;
 }
 
 /*Footer*/
@@ -264,38 +261,5 @@ body {
         margin: 10% 0% 0% 5%;
         width: 300px;
         font-family: 'Square Peg', cursive;
-    }
-
-    
-    .section-about-us {
-        width: 100%;
-        padding: 50px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }   
-
-    .title-about-us {
-        font-size: 30px;
-    }
-
-    .container-about-us {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 50px;
-    }
-
-    .img-about-us {
-        object-fit: cover;
-        width: 90%;
-        height: 300px;
-        border-radius: 10%;
-    }
-
-    .text-about-us {
-        font-weight: bold;
-        font-size: 20px;
     }
 }
