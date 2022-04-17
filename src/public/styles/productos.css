@@ -4,28 +4,27 @@ body {
 }
 
 #navbar {
-    background-color: #8F3629;
+    background-color: #118C46;
     width: 100%;
-    height: 80px;
+    height: 90px;
     display: flex;
     align-items: center;
     position: fixed;
-    z-index: 100;
+    z-index: 1;
     top: 0;
     justify-content: center;
 }
 
 .logo-navbar {
-    height: 50px;
-    margin-left: 2px;
+    height: 70px;
     position: absolute;
     left: 0;
     margin-left: 10px;
 }
 
+
 .menu-desk {
     list-style: none;
-    margin-right: 3%;
 }
 
 .li-menu-desk {
@@ -38,24 +37,23 @@ body {
     text-decoration: none;
     color: #f2f2f2;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .li-menu-desk > a > i {
     text-decoration: none;
     color: #f2f2f2;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 3px;
 }
 
 .li-menu-desk > a:hover {
     text-decoration: none;
-    color: #C2F2D7;
+    color: #81f8b4;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
-
 
 .title-section3 {
     margin-top: 120px;

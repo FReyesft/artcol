@@ -8,9 +8,9 @@ body {
 }
 /*Nav*/
 #navbar {
-    background-color: #8F3629;
+    background-color: #118C46;
     width: 100%;
-    height: 80px;
+    height: 90px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -20,22 +20,12 @@ body {
 }
 
 .logo-navbar {
-    height: 50px;
-    margin-left: 2px;
+    height: 70px;
     position: absolute;
     left: 0;
     margin-left: 10px;
 }
 
-.title-artcol {
-    position: absolute;
-    color: #f2f2f2;
-    text-shadow: rgb(13, 13, 13) 2px 0px 0px, rgb(13, 13, 13) 1.75517px 0.958851px 0px, rgb(13, 13, 13) 1.0806px 1.68294px 0px, rgb(13, 13, 13) 0.141474px 1.99499px 0px, rgb(13, 13, 13) -0.832294px 1.81859px 0px, rgb(13, 13, 13) -1.60229px 1.19694px 0px, rgb(13, 13, 13) -1.97998px 0.28224px 0px, rgb(13, 13, 13) -1.87291px -0.701566px 0px, rgb(13, 13, 13) -1.30729px -1.5136px 0px, rgb(13, 13, 13) -0.421592px -1.95506px 0px, rgb(13, 13, 13) 0.567324px -1.91785px 0px, rgb(13, 13, 13) 1.41734px -1.41108px 0px, rgb(13, 13, 13) 1.92034px -0.558831px 0px;
-   font-size: 80px;
-    margin: 3% 0% 0% 5%;
-    width: 500px;
-    font-family: 'Square Peg', cursive;
-}
 
 .menu-desk {
     list-style: none;
@@ -51,25 +41,36 @@ body {
     text-decoration: none;
     color: #f2f2f2;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .li-menu-desk > a > i {
     text-decoration: none;
     color: #f2f2f2;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 3px;
 }
 
 .li-menu-desk > a:hover {
     text-decoration: none;
-    color: #C2F2D7;
+    color: #81f8b4;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 
-/*Section 1*/
+
+/*Section Slider Wallpapers*/
+
+.title-artcol {
+    position: absolute;
+    color: #f2f2f2;
+    text-shadow: rgb(13, 13, 13) 2px 0px 0px, rgb(13, 13, 13) 1.75517px 0.958851px 0px, rgb(13, 13, 13) 1.0806px 1.68294px 0px, rgb(13, 13, 13) 0.141474px 1.99499px 0px, rgb(13, 13, 13) -0.832294px 1.81859px 0px, rgb(13, 13, 13) -1.60229px 1.19694px 0px, rgb(13, 13, 13) -1.97998px 0.28224px 0px, rgb(13, 13, 13) -1.87291px -0.701566px 0px, rgb(13, 13, 13) -1.30729px -1.5136px 0px, rgb(13, 13, 13) -0.421592px -1.95506px 0px, rgb(13, 13, 13) 0.567324px -1.91785px 0px, rgb(13, 13, 13) 1.41734px -1.41108px 0px, rgb(13, 13, 13) 1.92034px -0.558831px 0px;
+   font-size: 80px;
+    margin: 3% 0% 0% 5%;
+    width: 500px;
+    font-family: 'Square Peg', cursive;
+}
 
 .title-section2 {
     justify-content: center;
@@ -81,12 +82,13 @@ body {
 .container-section {
     height: 60vh;
     display: flex;
-    margin-top: 80px;
+    margin-top: 90px;
     display: flex;
+    background-image: url(../assets/stacked-waves-haikei.svg);
 }
 
 .img-section {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     height: 100%;
 }
@@ -99,7 +101,8 @@ body {
     margin: 10% 0% 0% 5%;
     width: 500px;
 }
-/*/Section 2*/
+/*/Section Slider Products*/
+
 .show-products{
     text-align: center;
     border-bottom: 1px solid #0d0d0d;
@@ -145,6 +148,7 @@ body {
 .section-about-us {
     width: 100%;
     padding: 50px;
+
 }
 
 .title-about-us {
@@ -154,15 +158,15 @@ body {
 
 .container-about-us {
     display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     margin-top: 50px;
 }
 
 .img-about-us {
     object-fit: cover;
-    width: 90%;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     border-radius: 10%;
 }
 
@@ -260,5 +264,38 @@ body {
         margin: 10% 0% 0% 5%;
         width: 300px;
         font-family: 'Square Peg', cursive;
+    }
+
+    
+    .section-about-us {
+        width: 100%;
+        padding: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }   
+
+    .title-about-us {
+        font-size: 30px;
+    }
+
+    .container-about-us {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .img-about-us {
+        object-fit: cover;
+        width: 90%;
+        height: 300px;
+        border-radius: 10%;
+    }
+
+    .text-about-us {
+        font-weight: bold;
+        font-size: 20px;
     }
 }
