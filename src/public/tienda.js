@@ -16,7 +16,7 @@ const grid = new Muuri(".grid", {
         evento.target.classList.add("activo");
   
         const categoria = evento.target.innerHTML.toLowerCase();
-        categoria === "colash"
+        categoria === ""
           ? grid.filter("[data-categoria]")
           : grid.filter(`[data-categoria="${categoria}"]`);
       });

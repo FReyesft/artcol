@@ -66,16 +66,15 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 50%;
+    width: 80%;
 }
 
 .title-artcol {
-
-    color: #ad736a;
+    color: #f2f2f2;
     text-shadow: rgb(13, 13, 13) 2px 0px 0px, rgb(13, 13, 13) 1.75517px 0.958851px 0px, rgb(13, 13, 13) 1.0806px 1.68294px 0px, rgb(13, 13, 13) 0.141474px 1.99499px 0px, rgb(13, 13, 13) -0.832294px 1.81859px 0px, rgb(13, 13, 13) -1.60229px 1.19694px 0px, rgb(13, 13, 13) -1.97998px 0.28224px 0px, rgb(13, 13, 13) -1.87291px -0.701566px 0px, rgb(13, 13, 13) -1.30729px -1.5136px 0px, rgb(13, 13, 13) -0.421592px -1.95506px 0px, rgb(13, 13, 13) 0.567324px -1.91785px 0px, rgb(13, 13, 13) 1.41734px -1.41108px 0px, rgb(13, 13, 13) 1.92034px -0.558831px 0px;
     font-size: 80px;
     font-family: 'Square Peg', cursive;
-    border-bottom: 1px solid #ad736a;
+    border-bottom: 1px solid #000000;
 }
 
 .title-about-us {
@@ -86,9 +85,8 @@ body {
 .img-about-us {
     border-radius: 50%;
     object-fit: contain;
-    height: 600px;
+    height: 300px;
     width: 100%;
-    background-image: url(../assets/stacked-waves-haikei.svg);
 }
 
 .text-about-us {
