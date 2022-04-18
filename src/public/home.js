@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
   let imagesWallpapers = [];
   imagesWallpapers[0] = "./assets/fondoWallpapernuevo.PNG";
   imagesWallpapers[1] = "./assets/product12.PNG";
-  imagesWallpapers[2] = "./assets/Wallpaper05.PNG";
+  imagesWallpapers[2] = "./assets/imagen03.PNG";
 
   function changeWallpaper() {
     let i = 0;
