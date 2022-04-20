@@ -170,7 +170,6 @@ body {
 /*Float*/
 
 .float01{
-	position:fixed;
 	width: 60px;
 	height: 60px;
 	bottom: 40px;
@@ -180,9 +179,7 @@ body {
 	border-radius:50px;
 	text-align:center;
     font-size:30px;
-    box-shadow: 2px 2px 3px #999;
     z-index:100;
-    filter: drop-shadow(0px 0px 10px rgb(18, 54, 56));
 }
 .float01:hover {
 	text-decoration: none;
@@ -191,4 +188,13 @@ body {
 
 .my-float01{
 	margin-top:16px;
+}
+
+@media (max-width: 1000px) {
+    .logo-navbar {
+        height: 60px;
+        position: absolute;
+        left: 0;
+        margin-left: 10px;
+    }
 }
